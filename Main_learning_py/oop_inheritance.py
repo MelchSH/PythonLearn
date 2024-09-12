@@ -26,7 +26,7 @@ class Worker(Person):
 
     def calc_yearly_salary(self):
         return self.salary
-worker1 = Worker("Melch","21","1.70",10000)
+worker1 = Worker("MASH","21","1.70",10000)
 
 print(worker1.name, worker1.age,worker1.calc_yearly_salary())
 
